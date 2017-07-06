@@ -16,7 +16,7 @@
 					<a href="${mvc.contextPath}/resources" id="current">Home</a>
 				</li>
 				<li>
-					<a href="${mvc.contextPath}/resources/form-example">Form</a>
+					<a href="${mvc.contextPath}/resources/form">Form</a>
 				</li>
 			</ul>
 		</div>
