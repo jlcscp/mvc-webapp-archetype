@@ -1,0 +1,61 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+body
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background-color: #FBFBFB;
+	padding: 0px 6%;
+}
+
+#header
+{
+	float: left;
+	width: 100%;
+	border-bottom: 1px dotted #5D5A53;
+	margin-bottom: 10px;
+}
+
+#header h1
+{
+	font-size: 18px;
+	float: left;
+	background: url(../images/logo.png) no-repeat;
+	padding: 45px 0px 5px 0px;
+}
+
+/******************** Top Navigation ************************/
+ul#navlist
+{
+	float: right;
+}
+
+ul#navlist li
+{
+	display: inline;
+}
+
+ul#navlist li a
+{
+	border-left: 1px dotted #8A8575;
+	padding: 10px;
+	margin-top: 10px;
+	color: #8A8575;
+	text-decoration: none;
+	float: left;
+}
+
+ul#navlist li:first-child a
+{
+	border: none;
+}
+
+ul#navlist li a:hover
+{
+	color: #F6855E;
+}
