@@ -27,9 +27,10 @@ mvn install
 Go to the folder where you want to generate the Webapp using the archetype
 
 ```
-mvn archetype:generate -DarchetypeGroupId=io.github.jlcscp -DarchetypeArtifactId=mvc-webapp-archetype -DarchetypeVersion=1.0-edr2 -DgroupId=<your-groupId> -DartifactId=<your-artifactId> -Dversion=<your-version>
+mvn archetype:generate -B -DarchetypeGroupId=io.github.jlcscp -DarchetypeArtifactId=mvc-webapp-archetype -DarchetypeVersion=1.0-edr2 -DgroupId=<your-groupId> -DartifactId=<your-artifactId> -Dversion=<your-version>
 ```
-Deploy the generated application in GlassFish
+
+Package and Deploy the generated application in GlassFish
 
 ```
 Code to be added
